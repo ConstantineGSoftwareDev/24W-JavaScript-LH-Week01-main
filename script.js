@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <title>COMP1073 Client-Side JavaScript</title>
-    <link rel="stylesheet" href="styles.css" />
-</head>
-
-<body>
-    <h1>JavaScript Introduction</h1>
-    <p>
-        Hello, <em id="UserName">everyone</em>. This week's lesson is all about the basics
-        of adding JavaScript to HTML and CSS.
-    </p>
-</body>
-
-<script>
-    /*
+   /*
     STEP 1: What is JavaScript?
 
     JavaScript is an interpreted language, rather than a compiled language like C/C++. That is - the code is run in a
@@ -61,13 +43,3 @@
     // STEP 4b: Grab the input from the variable and build a new string, then change the text inside the EM element
     Em.textContent = userInput;
     }
-    // STEP 5: Comment out the addEventListener above, and replace it with an ONCLICK attribute typed directly into the EM
-    // element in the HTML - note that this is common, but it is considered to be bad practice - separate your HTML and your JS
-
-    // STEP 6: Move the above JavaScript into an external file and reference it with an empty SCRIPT element just before
-    // closing out the BODY
-
-    // This page inspired by and adapted from https: //developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript
-</script>
-
-</html>
